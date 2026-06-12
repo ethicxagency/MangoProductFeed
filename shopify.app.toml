@@ -1,0 +1,20 @@
+name = "mango-product-feed"
+client_id = "133b57713a5ec354085555486ad242555"
+application_url = "https://reached-job-emotions-programmer.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+scopes = "read_products,read_product_listings"
+
+[auth]
+redirect_urls = [
+  "https://reached-job-emotions-programmer.trycloudflare.com/auth/callback",
+  "https://reached-job-emotions-programmer.trycloudflare.com/auth/shopify/callback",
+  "https://reached-job-emotions-programmer.trycloudflare.com/exitiframe"
+]
+
+[webhooks]
+api_version = "2024-10"
+
+[pos]
+embedded = false

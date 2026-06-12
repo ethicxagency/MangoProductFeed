@@ -1,0 +1,23 @@
+node_modules
+.DS_Store
+
+# Build
+/build
+/public/build
+
+# Local
+.env
+*.local
+
+# SQLite
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Shopify
+.shopify
+
+# TypeScript
+*.tsbuildinfo
+.shopify/
